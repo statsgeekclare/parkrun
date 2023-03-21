@@ -1,8 +1,9 @@
+# ideally change this bit to scrape data off the web then may need to use the lubridate function to fix broken dates and times
 
 #This imports the data from the csv and just looks at it. 
 
 Claresparkruns <- read.csv(file = 'input/Claresparkruns.csv')
-#could possibly save the output dataset here
+#could possibly save the output dataset here but you don't need to
 
 View(`Claresparkruns`)
 str(Claresparkruns)
